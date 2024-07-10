@@ -1,0 +1,493 @@
+@media (min-width: 1400px) {
+
+    .container {
+        width: 1300px;
+    }
+
+}
+
+
+
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 1400px) {
+    .serach {
+        width: 35rem;
+        margin-left: 5rem;
+    }
+
+    .nav-elementor__wrapp {
+        gap: 1rem;
+        margin-left: 5rem;
+    }
+
+    .pet-shop__offer-img {
+        width: 17%;
+    }
+
+    .pet-shop__link-wrapper img {
+        width: 60%;
+    }
+
+    .pet-shop__offer-img img {
+        bottom: -40px;
+    }
+}
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 1200px) {
+    .serach {
+        width: 30rem;
+        margin-left: 3rem;
+    }
+
+    .nav-elementor {
+        gap: 1rem;
+        font-size: 12px;
+    }
+
+    .nav-elementor__wrapp {
+        margin-left: 0;
+    }
+
+    .nav-actin__menu {
+        margin-left: 0rem;
+        gap: 1.5rem;
+    }
+
+    .shape6 {
+        position: absolute;
+        top: -80px;
+        right: -55px;
+    }
+
+    .header__left-title {
+        font-size: 5rem;
+    }
+
+    .header__left-caption {
+        font-size: 1.6rem;
+    }
+
+    .pet-shop__offer-img {
+        display: none;
+    }
+
+    .pet-shop__offer-title {
+        width: 45%;
+    }
+
+    .pet-shop__link-wrapper {
+        width: 50%;
+    }
+
+    .pet-shop__offer-title {
+        margin-left: 2.5rem;
+    }
+
+    .pet-shop__offer-title h3 {
+        padding: 0;
+    }
+
+    .collection__item__select a {
+        margin-right: 1.6rem;
+    }
+
+    .offer__end {
+        position: relative;
+        left: -210px;
+        top: 15px;
+    }
+
+    .offer__end {
+        position: static;
+    }
+
+    .left {
+        width: 25%;
+    }
+
+    .right {
+        width: 70%;
+    }
+
+    .product-statistics__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .product-statistics__featured {
+        width: 47.4%;
+    }
+
+    .comment__box {
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+    .feedback__left-title {
+        font-size: 3rem;
+    }
+
+    .footer__ul {
+        gap: 4rem;
+    }
+}
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 992px) {
+    .btn__toggle {
+        display: flex;
+    }
+
+    .serach,
+    .nav-elementor__wrapp,
+    .nav-actin__menu,
+    .nav__bottom,
+    .left__element,
+    .right__element {
+        display: none;
+    }
+
+    .element__wrapper {
+        justify-content: center;
+    }
+
+    .header__bottom {
+        background: linear-gradient(rgba(255, 255, 255, 0.621), rgba(255, 255, 255, 0.621)), url(../img/home-img.png);
+        margin-top: 0;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        object-fit: cover;
+        background-position: center;
+    }
+
+
+    .header__bottom-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__left-link {
+        margin-top: 1rem;
+    }
+
+    .header__right {
+        position: relative;
+        width: 80%;
+        margin-top: 10rem;
+        display: none;
+    }
+
+    .pet-shop__link-wrapper {
+        width: 60%;
+    }
+
+    .pet-shop__link-wrapper img {
+        width: 55%;
+    }
+
+    .pet-shop__offer-title {
+        padding: 1rem 0;
+    }
+
+    .pet-shop__offer-title h3 {
+        font-size: 3rem;
+    }
+
+    .collection__item-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collection__item-top {
+        margin: auto;
+    }
+
+    .left {
+        width: 45%;
+        margin-right: 2rem;
+    }
+
+    .items__right h3 {
+        font-size: 14px;
+    }
+
+    .Comment {
+        font-size: 15px;
+    }
+
+    .blog__item {
+        max-width: 55rem;
+    }
+
+    .blog__item-bottom {
+        margin-top: 33rem;
+    }
+
+    .footer__content {
+        width: 40%;
+    }
+
+    .footer__newsletter {
+        width: 60%;
+    }
+
+    .footer__wrapper {
+        row-gap: 5rem;
+    }
+
+    .footer__newsletter-title,
+    .footer__menu h3 {
+        margin-bottom: 1rem;
+    }
+
+    .footer__bottom {
+        flex-wrap: wrap;
+        row-gap: 3rem;
+        justify-content: center;
+    }
+
+    .nav__mobile__box {
+        display: flex;
+    }
+}
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 768px) {
+
+    .header__left-title {
+        font-size: 5rem;
+        max-width: 40rem;
+        line-height: 6rem;
+    }
+
+    .center__element {
+        display: none;
+    }
+
+    .left__element {
+        display: flex;
+    }
+
+    .pet-shop__offer {
+        background-size: cover;
+        display: block;
+    }
+
+    .pet-shop__offer-title {
+        text-align: center;
+        margin: auto;
+    }
+
+    .pet-shop__link-wrapper {
+        width: 90%;
+    }
+
+    .pet-shop__offer-title {
+        border-bottom: 1px dashed var(--border-color);
+    }
+
+    .pet-shop__link-wrapper {
+        margin: auto;
+        justify-content: space-between;
+        padding: 2rem 0;
+    }
+
+    .pet-shop__offer-title h3 {
+        padding: 1rem 0;
+    }
+
+    .collection__header {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .pet-shop__offer-title {
+        width: 70%;
+    }
+
+    .product__offer-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left {
+        width: 60%;
+        margin: 0;
+    }
+
+    .right {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .product-statistics__featured {
+        width: 101%;
+    }
+
+    .feedback__wrapper {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .feedback_left,
+    .feedback_right {
+        width: 100%;
+    }
+
+    .footer__content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__phone-number span {
+        display: block;
+    }
+
+    .footer__ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer__newsletter {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .download__mobile {
+        justify-content: center;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+    .header__left-title {
+        font-size: 5rem;
+        max-width: 40rem;
+        line-height: 6rem;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {
+    .pet-shope__item {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .img__golery {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .img__golery img {
+        width: 30%;
+    }
+
+    .header__left-title {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width:450px) {
+    .header__left-title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .section__header__title {
+        font-size: 2rem;
+    }
+
+    .cat__hands {
+        top: -10px;
+    }
+
+    .pet-shop__link-wrapper {
+        flex-direction: column;
+    }
+
+    .pet-shop__link-wrapper img {
+        width: 75%;
+    }
+
+    .comment__box {
+        flex-direction: column;
+    }
+
+    .Comment {
+        font-size: 1.6rem;
+        text-align: justify;
+    }
+
+    .blog__item-bottom {
+        margin-top: 23rem;
+    }
+
+    .blog__title {
+        font-size: 1.6rem;
+    }
+
+    .blog__caprtion {
+        font-size: 1.2rem;
+    }
+
+    .footer__ul {
+        flex-wrap: wrap;
+        gap: 6rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header__left-title {
+        font-size: 4rem;
+        line-height: 5rem;
+        width: 38rem;
+    }.shape1{
+        width: 25%;
+    }
+}
+
+/* =========================================================================================== */
+
+@media screen and (max-width:400px) {
+
+    .header__left-caption {
+        font-size: 13px;
+        max-width: 20rem;
+    }
+
+    .items__right h3 {
+        font-size: 12px;
+    }
+
+    .items__right span {
+        font-size: 11px;
+    }
+
+    .blog__item-bottom {
+        margin-top: 21rem;
+    }
+}

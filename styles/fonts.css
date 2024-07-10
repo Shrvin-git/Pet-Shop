@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "light";
+    src: url("../font/HelveticaNeueCyr-Light.otf")format("opentype");
+}
+
+
+
+@font-face {
+    font-family: "medium";
+    src: url("../font/HelveticaNeueCyr-Medium.otf")format("opentype");
+}
+
